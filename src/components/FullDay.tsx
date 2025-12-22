@@ -1,48 +1,34 @@
 import React from "react";
 import slide1 from "../assets/images/slide1.png"; // Hero image
-import cajamarca from "../assets/images/recomendations/cajamarca.png";
-import oxapampa from "../assets/images/recomendations/oxapampa.png";
-import puntaSal from "../assets/images/recomendations/punta-sal.png";
-import tarapoto from "../assets/images/recomendations/tarapoto.png";
-import chancay from "../assets/images/recomendations/chancay.png";
-import trujillo from "../assets/images/recomendations/trujillo.png";
+import ica from "../assets/images/full-day/ica.png";
+import sanMateo from "../assets/images/full-day/san-mateo.png";
+import chancay from "../assets/images/full-day/chancay.png";
+import lunahuana from "../assets/images/full-day/lunahuana.png";
 
 const fullDays = [
     {
-        title: "Full Day Perené",
-        description: "Aventura total: cataratas, comunidades nativas y degustación de café.",
-        image: cajamarca,
-        duration: "1 Día"
+        title: "Ica - Huacachina",
+        description: "Vive una experiencia llena de adrenalina y paisajes increíbles con nuestro Full Day a Ica y Huacachina. Descubre el famoso oasis de Huacachina, rodeado de enormes dunas, perfecto para fotos épicas y momentos inolvidables Siente la emoción del tubulares(buggies) y el sandboarding en el desierto.",
+        image: ica,
+        duration: "FULL DAY"
     },
     {
-        title: "Full Day Oxapampa",
-        description: "Descubre la colonia austro-alemana, el Wharapo y la cueva Tunqui.",
-        image: oxapampa,
-        duration: "1 Día"
+        title: "San Mateo de Otao",
+        description: "Descubre San Mateo de Otao, un destino natural escondido en la sierra de Lima, perfecto para escapar de la rutina y conectar con la naturaleza. Rodeado de montañas, ríos y vegetación, este lugar es ideal para los amantes del turismo de aventura y paisajes verdes.",
+        image: sanMateo,
+        duration: "FULL DAY"
     },
     {
-        title: "Full Day Villa Rica",
-        description: "La tierra del café más fino del mundo y la laguna El Oconal.",
-        image: puntaSal,
-        duration: "1 Día"
-    },
-    {
-        title: "Full Day Pozuzo",
-        description: "Un rincón de Europa en la selva. Pozas de agua salada y cultura viva.",
-        image: tarapoto,
-        duration: "1 Día"
-    },
-    {
-        title: "Full Day San Ramón",
-        description: "Naturaleza pura: Catarata Tirol y el mariposario más grande.",
+        title: "Castillo de Chancay",
+        description: "Descubre el Castillo de Chancay, una joya arquitectónica inspirada en los castillos europeos del siglo XIX, ubicada en la hermosa costa norte de Lima.",
         image: chancay,
-        duration: "1 Día"
+        duration: "FULL DAY"
     },
     {
-        title: "Full Day La Merced",
-        description: "Puente colgante Kimiri, perfil del nativo dormido y mucha diversión.",
-        image: trujillo,
-        duration: "1 Día"
+        title: "Lunahuaná",
+        description: "Vive un día lleno de emociones y paisajes increíbles en Lunahuaná, el destino perfecto cerca de Lima para quienes buscan aventura, sol y diversión. Este pintoresco valle es conocido por sus ríos, viñedos y actividades al aire libre, ideal para un escape rápido de la ciudad.",
+        image: lunahuana,
+        duration: "FULL DAY"
     }
 ];
 
