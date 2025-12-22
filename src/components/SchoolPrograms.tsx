@@ -1,29 +1,53 @@
 import React from "react";
 import slide2 from "../assets/images/slide2.png";
-import cajamarca from "../assets/images/recomendations/cajamarca.png";
-import tarapoto from "../assets/images/recomendations/tarapoto.png";
-import cusco from "../assets/images/recomendations/cusco.png";
+import puntaCana from "../assets/images/package/punta-cana.png";
+import cartagena from "../assets/images/package/cartagena.png";
+import sanAndres from "../assets/images/package/sanAndres.png";
+import decameron from "../assets/images/package/decameron.png";
+import cusco from "../assets/images/package/cusco.png";
+import tarapoto from "../assets/images/package/tarapoto.png";
 
 const programs = [
     {
-        title: "Oxapampa Vivencial",
-        duration: "4 Días / 3 Noches",
-        image: cajamarca,
-        description: "Experiencia cultural y natural. Visita a fundos cafetaleros, comunidades nativas y cataratas.",
+        title: "Punta Cana",
+        duration: "5 Días / 4 Noches",
+        image: puntaCana,
+        description: "Vive unas vacaciones inolvidables en Punta Cana, uno de los destinos más paradisíacos del Caribe. Disfruta de playas de arena blanca, aguas cristalinas y resorts todo incluido diseñados para el descanso y la diversión.",
         tag: "Primaria y Secundaria"
     },
     {
-        title: "Selva Central Aventura",
+        title: "Cartagena - Isla del Rosario",
         duration: "5 Días / 4 Noches",
-        image: tarapoto,
-        description: "Adrenalina y naturaleza. Canotaje, caminatas y visita a la catarata Velo de Novia.",
+        image: cartagena,
+        description: "Descubre la magia de Cartagena de Indias, una ciudad llena de historia, cultura y encanto caribeño. Recorre su Ciudad Amurallada, calles coloridas, balcones coloniales y disfruta de una vibrante vida nocturna junto al mar.",
         tag: "Secundaria y Promociones"
+    },
+    {
+        title: "Isla San Andrés",
+        duration: "5 Días / 4 Noches",
+        image: sanAndres,
+        description: "Disfruta San Andrés, uno de los destinos más espectaculares del Caribe colombiano, famoso por su increíble mar de siete colores, playas de arena blanca. Disfrutaremos de actividades acuáticas, paseos en lancha, snorkeling.",
+        tag: "Promociones"
+    },
+    {
+        title: "Decameron - Punta Sal",
+        duration: "5 Días / 4 Noches",
+        image: decameron,
+        description: "Vive una experiencia única en Decameron Punta Sal, uno de los resorts todo incluido más exclusivos del norte del Perú, ubicado frente a una de las playas más hermosas de la región, con clima cálido todo el año.",
+        tag: "Promociones"
     },
     {
         title: "Cusco Imperial",
         duration: "5 Días / 4 Noches",
         image: cusco,
-        description: "Historia viva. Machu Picchu, Valle Sagrado y City Tour con enfoque educativo.",
+        description: "Descubre Cuscomagico, la capital histórica del Perú, llena de cultura, tradición y arquitectura ancestral. Recorre sus calles empedradas, plazas coloniales y restos arqueológicos que narran la grandeza del Imperio Inca. Dónde se encuentra Machu Picchu, una de las Siete Maravillas del Mundo Moderno, rodeada de montañas y misterio.",
+        tag: "Promociones"
+    },
+    {
+        title: "Tarapoto",
+        duration: "5 Días / 4 Noches",
+        image: tarapoto,
+        description: "Vive experiencias únicas visitando Tarapoto destino de naturaleza, aventura de la Amazonía peruana. Disfruta de la Catarata de Ahuashiyacu, navegando por la famosa Laguna Azul, explorando comunidades nativas y disfrutando de la deliciosa gastronomía amazónica.",
         tag: "Promociones"
     }
 ];

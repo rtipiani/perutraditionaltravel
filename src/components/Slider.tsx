@@ -7,23 +7,23 @@ import slide3 from "../assets/images/slide3.png";
 const slides = [
     {
         src: slide1.src,
-        alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
+        alt: "Disfruta del paraíso caribeño, sus playas y arena blanca.",
         title: "Punta Cana",
-        description: "Sumérgete en la selva central, entre cataratas, café y la calidez de su gente.",
+        description: "Disfruta del paraíso caribeño, sus playas y arena blanca.",
         whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesad@ en el paquete Punta Cana.")}`
     },
     {
         src: slide2.src,
-        alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
+        alt: "Descubre la ciudad amurallada de arquitectura colonial y sus playas.",
         title: "Cartagena",
-        description: "Vive la armonía entre montañas, tradiciones austro-alemanas y naturaleza pura.",
+        description: "Descubre la ciudad amurallada de arquitectura colonial y sus playas.",
         whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesad@ en el paquete Cartagena.")}`
     },
     {
         src: slide3.src,
-        alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
+        alt: "Famosa por su increíble fusión de arquitectura inca y colonial.",
         title: "Cusco",
-        description: "Descubre el encanto del primer pueblo austro-alemán del Perú, rodeado de verdes valles.",
+        description: "Famosa por su increíble fusión de arquitectura inca y colonial.",
         whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesad@ en el paquete Cusco.")}`
     }
 ];
