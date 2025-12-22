@@ -10,21 +10,21 @@ const slides = [
         alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
         title: "Punta Cana",
         description: "Sumérgete en la selva central, entre cataratas, café y la calidez de su gente.",
-        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesado en el paquete Punta Cana.")}`
+        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesad@ en el paquete Punta Cana.")}`
     },
     {
         src: slide2.src,
         alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
         title: "Cartagena",
         description: "Vive la armonía entre montañas, tradiciones austro-alemanas y naturaleza pura.",
-        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesado en el paquete Cartagena.")}`
+        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesad@ en el paquete Cartagena.")}`
     },
     {
         src: slide3.src,
         alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
         title: "Cusco",
         description: "Descubre el encanto del primer pueblo austro-alemán del Perú, rodeado de verdes valles.",
-        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesado en el paquete Cusco.")}`
+        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesad@ en el paquete Cusco.")}`
     }
 ];
 
