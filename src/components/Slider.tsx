@@ -70,8 +70,9 @@ const Slider: React.FC = () => {
                         <img
                             src={slide.src}
                             alt={slide.alt}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover contrast-[1.1] brightness-[1.05] saturate-[1.1]"
                             loading={i === 0 ? "eager" : "lazy"}
+                            style={{ imageRendering: "auto" }} // Ensure browser uses best interpolation
                         />
                         <div className="absolute inset-0 bg-black/45 flex flex-col justify-center items-center text-center px-4 md:px-8 lg:px-12 text-white">
                             <h1 className="text-3xl sm:text-6xl md:text-7xl font-semibold leading-tight tracking-wide mb-1">
