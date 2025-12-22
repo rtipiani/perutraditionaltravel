@@ -10,21 +10,21 @@ const slides = [
         alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
         title: "Punta Cana",
         description: "Sumérgete en la selva central, entre cataratas, café y la calidez de su gente.",
-        whatsappLink: "https://wa.link/okkl9y"
+        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesado en el paquete Punta Cana.")}`
     },
     {
         src: slide2.src,
         alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
         title: "Cartagena",
         description: "Vive la armonía entre montañas, tradiciones austro-alemanas y naturaleza pura.",
-        whatsappLink: "https://wa.link/b6g8ba"
+        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesado en el paquete Cartagena.")}`
     },
     {
         src: slide3.src,
         alt: "Recorre las sagradas tierras del Cusco, hogar el imperio Inca.",
         title: "Cusco",
         description: "Descubre el encanto del primer pueblo austro-alemán del Perú, rodeado de verdes valles.",
-        whatsappLink: "https://wa.link/wlb78h"
+        whatsappLink: `https://wa.me/51962353202?text=${encodeURIComponent("¡Hola! Perú Traditional Travel. Estoy interesado en el paquete Cusco.")}`
     }
 ];
 
@@ -130,11 +130,10 @@ const Slider: React.FC = () => {
                             updateSlide(i);
                             startAutoSlide();
                         }}
-                        className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                            i === currentSlide
-                                ? "bg-white scale-110"
-                                : "bg-gray-300 opacity-70 hover:opacity-100"
-                        }`}
+                        className={`w-3 h-3 rounded-full transition-all duration-300 ${i === currentSlide
+                            ? "bg-white scale-110"
+                            : "bg-gray-300 opacity-70 hover:opacity-100"
+                            }`}
                         aria-label={`Ir al slide ${i + 1}`}
                     ></button>
                 ))}

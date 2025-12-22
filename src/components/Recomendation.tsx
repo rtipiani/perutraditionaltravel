@@ -89,8 +89,8 @@ const Recomendation = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {tours.map((tour, index) => {
-                        const message = `¡Hola! Angel Aventura Tours. Estoy interesado en el paquete ${tour.days} - ${tour.title}.`;
-                        const waLink = `https://wa.me/51918024860?text=${encodeURIComponent(message)}`;
+                        const message = `¡Hola! Perú Traditional Travel. Estoy interesado en el paquete ${tour.days} - ${tour.title}.`;
+                        const waLink = `https://wa.me/51962353202?text=${encodeURIComponent(message)}`;
                         return (
                             <div key={index} className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden flex flex-col h-full border border-gray-100">
                                 <div className="relative overflow-hidden h-64">
