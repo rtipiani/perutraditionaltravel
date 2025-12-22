@@ -6,6 +6,7 @@ import sanAndres from "../assets/images/package/sanAndres.png";
 import decameron from "../assets/images/package/decameron.png";
 import cusco from "../assets/images/package/cusco.png";
 import tarapoto from "../assets/images/package/tarapoto.png";
+import vichayito from "../assets/images/package/vichayito.png";
 
 const programs = [
     {
@@ -48,6 +49,13 @@ const programs = [
         duration: "5 Días / 4 Noches",
         image: tarapoto,
         description: "Vive experiencias únicas visitando Tarapoto destino de naturaleza, aventura de la Amazonía peruana. Disfruta de la Catarata de Ahuashiyacu, navegando por la famosa Laguna Azul, explorando comunidades nativas y disfrutando de la deliciosa gastronomía amazónica.",
+        tag: "Promociones"
+    },
+    {
+        title: "Vichayito - Ñuros",
+        duration: "5 Días / 4 Noches",
+        image: vichayito,
+        description: "Descubre Vichayito, una de las playas más tranquilas y exclusivas del norte del Perú. Con su arena clara, mar cálido y ambiente relajado.Disfrutaras de un paseo costero y nado con las tortugas gigantes en la bahía de Ñuro.",
         tag: "Promociones"
     }
 ];
