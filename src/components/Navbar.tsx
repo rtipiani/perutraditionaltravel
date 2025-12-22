@@ -6,7 +6,6 @@ const menu = [
     { label: "Nosotros", href: "/nosotros" },
     { label: "Programas Escolares", href: "/programas-escolares" },
     { label: "Full Day", href: "/full-day" },
-    { label: "Internacionales", href: "/internacionales" },
     { label: "Galería", href: "/galeria" },
 ];
 
@@ -36,10 +35,9 @@ const Navbar: React.FC = () => {
     }, []);
 
     const linkClass = (path: string) =>
-        `transition duration-200 ${
-            activePath === path
-                ? "text-red-600 font-bold border-b-2 border-red-600"
-                : "text-orange-800 hover:text-red-600"
+        `transition duration-200 ${activePath === path
+            ? "text-red-600 font-bold border-b-2 border-red-600"
+            : "text-orange-800 hover:text-red-600"
         }`;
 
     return (
@@ -72,28 +70,25 @@ const Navbar: React.FC = () => {
                     className="lg:hidden text-3xl text-red-600 z-50 relative focus:outline-none"
                 >
                     <i
-                        className={`fas ${
-                            isMenuOpen ? "fa-times" : "fa-bars"
-                        } transition-transform duration-300 ${isMenuOpen ? "rotate-90" : ""}`}
+                        className={`fas ${isMenuOpen ? "fa-times" : "fa-bars"
+                            } transition-transform duration-300 ${isMenuOpen ? "rotate-90" : ""}`}
                     />
                 </button>
             </div>
 
             {/* BACKDROP MOBILE */}
             <div
-                className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-300 lg:hidden ${
-                    isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
-                }`}
+                className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-300 lg:hidden ${isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+                    }`}
                 onClick={() => setIsMenuOpen(false)}
             />
 
             {/* MENU MOBILE */}
             <div
-                className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-2xl z-50 transform transition-all duration-500 ease-in-out lg:hidden ${
-                    isMenuOpen
+                className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-2xl z-50 transform transition-all duration-500 ease-in-out lg:hidden ${isMenuOpen
                         ? "translate-x-0 opacity-100 scale-100"
                         : "translate-x-full opacity-0 scale-95"
-                }`}
+                    }`}
             >
                 <div className="flex flex-col h-full pt-6 pb-6 px-6 overflow-y-auto">
                     <button
@@ -110,9 +105,8 @@ const Navbar: React.FC = () => {
                             <li key={i} className="border-b border-orange-100 pb-2">
                                 <a
                                     href={item.href}
-                                    className={`block py-2 hover:text-red-600 transition-colors ${
-                                        activePath === item.href ? "text-red-600 font-bold" : "text-orange-800"
-                                    }`}
+                                    className={`block py-2 hover:text-red-600 transition-colors ${activePath === item.href ? "text-red-600 font-bold" : "text-orange-800"
+                                        }`}
                                     onClick={() => setIsMenuOpen(false)}
                                 >
                                     {item.label}

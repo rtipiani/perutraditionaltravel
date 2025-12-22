@@ -1,6 +1,6 @@
 import React from "react";
 import slide3 from "../assets/images/slide3.png";
-import oxapampa from "../assets/images/recomendations/oxapampa.png";
+import about from "../assets/images/about.png";
 
 const AboutUs: React.FC = () => {
     return (
@@ -29,7 +29,7 @@ const AboutUs: React.FC = () => {
                     <div className="relative group">
                         <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
                             <img
-                                src={oxapampa.src}
+                                src={about.src}
                                 alt="Nuestra Historia"
                                 className="w-full h-[500px] object-cover transform transition duration-700 group-hover:scale-110"
                             />
@@ -47,11 +47,20 @@ const AboutUs: React.FC = () => {
                         </h2>
                         <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
                             <p>
-                                <strong className="text-gray-900">Perú Traditional Travel</strong> nace con la misión de mostrar la verdadera esencia de nuestra tierra. No somos solo guías; somos anfitriones apasionados por Oxapampa y la Selva Central.
+                                <strong className="text-gray-900">Somos una agencia de viajes especializadas</strong> en viajes de promoción, corporativos, full days en destinos nacionales e internacionales. Diseñamos programas a medida, según las necesidades de cada uno de nuestros clientes.
                             </p>
                             <p>
-                                Creemos en un turismo que conecta, que respeta y que transforma. Cada viaje que diseñamos está pensado para que te lleves no solo fotos, sino historias que contarás por siempre.
+                                Nuestro equipo de profesionales en turismo se encuentran capacitados para la planificación y asesoramiento a cada uno de nuestros clientes, asegurando su satisfacción. Nos enfocamos en crear experiencias memorables desde la coordinación previa al viaje y durante.
                             </p>
+                            <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                                <ul className="space-y-2 text-sm">
+                                    <li><strong className="text-gray-900">Razón Social:</strong> Peru Traditional Travel</li>
+                                    <li><strong className="text-gray-900">RUC:</strong> 20606335793</li>
+                                </ul>
+                                <p className="mt-3 text-sm italic text-gray-500">
+                                    Nos encontramos registrados en MINCETUR, ente que nos acredita como una agencia formal y responsable.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
