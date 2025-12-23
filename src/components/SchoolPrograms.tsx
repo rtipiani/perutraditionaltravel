@@ -91,11 +91,10 @@ const SchoolPrograms: React.FC = () => {
                         </h2>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             { icon: "fa-graduation-cap", title: "Valor Educativo", desc: "Aprendizaje vivencial integrando historia y naturaleza." },
                             { icon: "fa-shield-alt", title: "Seguridad Total", desc: "Monitoreo 24/7 y asistencia permanente durante el viaje." },
-                            { icon: "fa-utensils", title: "Alimentación", desc: "Menús nutritivos y balanceados para estudiantes." },
                             { icon: "fa-ticket-alt", title: "Liberados", desc: "1 libre por cada 15 alumnos pagantes." }
                         ].map((feature, idx) => (
                             <div key={idx} className="group p-6 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl transition-all duration-300 border border-gray-100 text-center">

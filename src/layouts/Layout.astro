@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Navbar from "../components/Navbar.tsx";
 import Footer from "../components/Footer.tsx";
+import FloatingWhatsApp from "../components/FloatingWhatsApp.tsx";
 ---
 
 <!doctype html>
@@ -15,6 +16,7 @@ import Footer from "../components/Footer.tsx";
 	<body>
 		<Navbar client:only />
 		<slot />
+		<FloatingWhatsApp client:load />
 		<Footer />
 	</body>
 </html>

@@ -121,7 +121,7 @@ const Slider: React.FC = () => {
                 <i className="fa-solid fa-chevron-right"></i>
             </button>
 
-            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-1 z-10">
                 {slides.map((_, i) => (
                     <button
                         key={i}
@@ -130,12 +130,15 @@ const Slider: React.FC = () => {
                             updateSlide(i);
                             startAutoSlide();
                         }}
-                        className={`w-3 h-3 rounded-full transition-all duration-300 ${i === currentSlide
-                            ? "bg-white scale-110"
-                            : "bg-gray-300 opacity-70 hover:opacity-100"
-                            }`}
+                        className="w-10 h-10 flex items-center justify-center rounded-full transition-colors hover:bg-white/10"
                         aria-label={`Ir al slide ${i + 1}`}
-                    ></button>
+                    >
+                        <div className={`w-3 h-3 rounded-full transition-all duration-300 ${i === currentSlide
+                            ? "bg-white scale-110"
+                            : "bg-gray-300 opacity-70"
+                            }`}
+                        />
+                    </button>
                 ))}
             </div>
         </section>

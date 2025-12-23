@@ -35,10 +35,7 @@ const AboutUs: React.FC = () => {
                             />
                         </div>
                         {/* Decorative element matching main theme */}
-                        <div className="absolute -bottom-6 -right-6 bg-red-600 text-white p-6 rounded-2xl shadow-xl hidden md:block">
-                            <p className="text-3xl font-bold mb-1">10+</p>
-                            <p className="text-sm font-medium">Años de Experiencia</p>
-                        </div>
+
                     </div>
 
                     <div className="pl-0 md:pl-8">
