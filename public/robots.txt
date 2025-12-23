@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://perutraditionaltravel.vercel.app/sitemap-index.xml

@@ -1,9 +1,13 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 import Slider from "../components/Slider.tsx";
 import Recomendations from "../components/Recomendation.tsx";
 ---
-<Layout>
+
+<Layout
+    title="Perú Traditional Travel | Agencia de Viajes y Turismo"
+    description="Descubre los mejores destinos del Perú con nosotros. Paquetes turísticos, full days, programas escolares y viajes familiares inolvidables."
+>
     <Slider client:load />
     <Recomendations />
 </Layout>
