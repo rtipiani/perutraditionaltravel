@@ -1,7 +1,7 @@
 import React from "react";
-import slide1 from "../assets/images/slide1.png"; // Punta Cana
-import slide2 from "../assets/images/slide2.png"; // Cartagena
-import puntaSal from "../assets/images/recomendations/punta-sal.png"; // Placeholder for San Andrés (Beach vibe)
+import slide1 from "../assets/images/slide1.avif"; // Punta Cana
+import slide2 from "../assets/images/slide2.avif"; // Cartagena
+import puntaSal from "../assets/images/recomendations/punta-sal.avif"; // Placeholder for San Andrés (Beach vibe)
 
 const destinations = [
     {
