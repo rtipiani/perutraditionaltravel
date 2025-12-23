@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.avif";
 import React, { useState, useEffect } from "react";
 
 const menu = [
@@ -86,8 +86,8 @@ const Navbar: React.FC = () => {
             {/* MENU MOBILE */}
             <div
                 className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-2xl z-50 transform transition-all duration-500 ease-in-out lg:hidden ${isMenuOpen
-                        ? "translate-x-0 opacity-100 scale-100"
-                        : "translate-x-full opacity-0 scale-95"
+                    ? "translate-x-0 opacity-100 scale-100"
+                    : "translate-x-full opacity-0 scale-95"
                     }`}
             >
                 <div className="flex flex-col h-full pt-6 pb-6 px-6 overflow-y-auto">

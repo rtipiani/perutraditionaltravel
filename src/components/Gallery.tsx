@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 
 // Images
-import arequipa from "../assets/images/recomendations/arequipa.png";
-import cajamarca from "../assets/images/recomendations/cajamarca.png";
-import chancay from "../assets/images/recomendations/chancay.png";
-import cusco from "../assets/images/recomendations/cusco.png";
-import huacachina from "../assets/images/recomendations/huacachina.png";
-import oxapampa from "../assets/images/recomendations/oxapampa.png";
-import puntaSal from "../assets/images/recomendations/punta-sal.png";
-import tarapoto from "../assets/images/recomendations/tarapoto.png";
-import trujillo from "../assets/images/recomendations/trujillo.png";
+import arequipa from "../assets/images/recomendations/arequipa.avif";
+import cajamarca from "../assets/images/recomendations/cajamarca.avif";
+import chancay from "../assets/images/recomendations/chancay.avif";
+import cusco from "../assets/images/recomendations/cusco.avif";
+import huacachina from "../assets/images/recomendations/huacachina.avif";
+import oxapampa from "../assets/images/recomendations/oxapampa.avif";
+import puntaSal from "../assets/images/recomendations/punta-sal.avif";
+import tarapoto from "../assets/images/recomendations/tarapoto.avif";
+import trujillo from "../assets/images/recomendations/trujillo.avif";
 
-import slide1 from "../assets/images/slide1.png";
-import slide2 from "../assets/images/slide2.png";
-import slide3 from "../assets/images/slide3.png";
+import slide1 from "../assets/images/slide1.avif";
+import slide2 from "../assets/images/slide2.avif";
+import slide3 from "../assets/images/slide3.avif";
 
 type Category = 'Todos' | 'Costa' | 'Sierra' | 'Selva';
 

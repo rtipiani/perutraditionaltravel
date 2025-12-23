@@ -1,6 +1,6 @@
 import React from "react";
-import slide3 from "../assets/images/slide3.png";
-import about from "../assets/images/about.png";
+import slide3 from "../assets/images/slide3.avif";
+import about from "../assets/images/about.avif";
 
 const AboutUs: React.FC = () => {
     return (

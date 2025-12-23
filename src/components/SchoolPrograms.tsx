@@ -1,12 +1,12 @@
 import React from "react";
-import slide2 from "../assets/images/slide2.png";
-import puntaCana from "../assets/images/package/punta-cana.png";
-import cartagena from "../assets/images/package/cartagena.png";
-import sanAndres from "../assets/images/package/sanAndres.png";
-import decameron from "../assets/images/package/decameron.png";
-import cusco from "../assets/images/package/cusco.png";
-import tarapoto from "../assets/images/package/tarapoto.png";
-import vichayito from "../assets/images/package/vichayito.png";
+import slide2 from "../assets/images/slide2.avif";
+import puntaCana from "../assets/images/package/punta-cana.avif";
+import cartagena from "../assets/images/package/cartagena.avif";
+import sanAndres from "../assets/images/package/sanAndres.avif";
+import decameron from "../assets/images/package/decameron.avif";
+import cusco from "../assets/images/package/cusco.avif";
+import tarapoto from "../assets/images/package/tarapoto.avif";
+import vichayito from "../assets/images/package/vichayito.avif";
 
 export const programs = [
     {

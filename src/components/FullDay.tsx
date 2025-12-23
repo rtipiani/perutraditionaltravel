@@ -1,9 +1,9 @@
 import React from "react";
-import slide1 from "../assets/images/slide3.png"; // Hero image
-import ica from "../assets/images/full-day/ica.png";
-import sanMateo from "../assets/images/full-day/san-mateo.png";
-import chancay from "../assets/images/full-day/chancay.png";
-import lunahuana from "../assets/images/full-day/lunahuana.png";
+import slide1 from "../assets/images/slide3.avif"; // Hero image
+import ica from "../assets/images/full-day/ica.avif";
+import sanMateo from "../assets/images/full-day/san-mateo.avif";
+import chancay from "../assets/images/full-day/chancay.avif";
+import lunahuana from "../assets/images/full-day/lunahuana.avif";
 
 export const fullDays = [
     {
