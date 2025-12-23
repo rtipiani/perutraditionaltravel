@@ -28,16 +28,13 @@ interface GalleryItem {
 const galleryItems: GalleryItem[] = [
     { id: 1, title: 'Cusco Imperial', category: 'Sierra', image: cusco, description: 'La capital histórica del Perú.' },
     { id: 2, title: 'Playas de Punta Sal', category: 'Costa', image: puntaSal, description: 'Sol y playa en el norte.' },
-    { id: 3, title: 'Oxapampa Verde', category: 'Selva', image: oxapampa, description: 'Naturaleza y cultura austro-alemana.' },
+    { id: 3, title: 'Oxapampa', category: 'Selva', image: oxapampa, description: 'Naturaleza y cultura austro-alemana.' },
     { id: 4, title: 'Huacachina', category: 'Costa', image: huacachina, description: 'El oasis de América.' },
     { id: 5, title: 'Tarapoto', category: 'Selva', image: tarapoto, description: 'La ciudad de las palmeras.' },
     { id: 6, title: 'Arequipa', category: 'Sierra', image: arequipa, description: 'La ciudad blanca.' },
     { id: 7, title: 'Chan Chan - Trujillo', category: 'Costa', image: trujillo, description: 'Historia pre-incaica.' },
     { id: 8, title: 'Cajamarca', category: 'Sierra', image: cajamarca, description: 'Carnavales y baños del inca.' },
-    { id: 9, title: 'Castillo de Chancay', category: 'Costa', image: chancay, description: 'Cultura y diversión cerca de Lima.' },
-    { id: 10, title: 'Machu Picchu', category: 'Sierra', image: slide1, description: 'Maravilla del mundo.' },
-    { id: 11, title: 'Amazonas', category: 'Selva', image: slide2, description: 'El pulmón del mundo.' },
-    { id: 12, title: 'Montaña de Colores', category: 'Sierra', image: slide3, description: 'Paisajes únicos.' },
+    { id: 9, title: 'Castillo de Chancay', category: 'Costa', image: chancay, description: 'Cultura y diversión cerca de Lima.' }
 ];
 
 const Gallery = () => {

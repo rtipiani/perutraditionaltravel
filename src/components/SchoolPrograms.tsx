@@ -8,7 +8,7 @@ import cusco from "../assets/images/package/cusco.png";
 import tarapoto from "../assets/images/package/tarapoto.png";
 import vichayito from "../assets/images/package/vichayito.png";
 
-const programs = [
+export const programs = [
     {
         title: "Punta Cana",
         duration: "5 Días / 4 Noches",

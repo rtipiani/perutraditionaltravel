@@ -1,11 +1,11 @@
 import React from "react";
-import slide1 from "../assets/images/slide1.png"; // Hero image
+import slide1 from "../assets/images/slide3.png"; // Hero image
 import ica from "../assets/images/full-day/ica.png";
 import sanMateo from "../assets/images/full-day/san-mateo.png";
 import chancay from "../assets/images/full-day/chancay.png";
 import lunahuana from "../assets/images/full-day/lunahuana.png";
 
-const fullDays = [
+export const fullDays = [
     {
         title: "Ica - Huacachina",
         description: "Vive una experiencia llena de adrenalina y paisajes increíbles con nuestro Full Day a Ica y Huacachina. Descubre el famoso oasis de Huacachina, rodeado de enormes dunas, perfecto para fotos épicas y momentos inolvidables Siente la emoción del tubulares(buggies) y el sandboarding en el desierto.",
